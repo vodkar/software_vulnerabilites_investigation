@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sv-investigation"
+version = "0.1.0"
+description = ""
+authors = ["vodkar <boombarah@gmail.com>"]
+readme = "README.md"
+packages = []
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter-book = "^0.15.1"
+httpx = "^0.25.2"
+ipykernel = "^6.27.1"
+orjson = "^3.9.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
