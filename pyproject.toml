@@ -12,8 +12,30 @@ jupyter-book = "^0.15.1"
 httpx = "^0.25.2"
 ipykernel = "^6.27.1"
 orjson = "^3.9.10"
+polars = "^0.19.19"
+seaborn = "^0.13.0"
+numpy = "^1.26.2"
+pyarrow = "^14.0.1"
+gitpython = "^3.1.40"
+pygithub = "^2.1.1"
+ratelimiter = "^1.2.0.post0"
+tqdm = "^4.66.1"
+plotly = "^5.18.0"
+pylint = "^3.0.3"
+kaleido = "0.2.1"
 
+
+[tool.poetry.group.development.dependencies]
+black = {extras = ["jupyter"], version = "^24.1.1"}
+isort = "^5.13.2"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+line_length = 120

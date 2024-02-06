@@ -1,2 +1,7 @@
 **/_build/
 **/cves/
+**/cwes/
+**/advisory-database/
+**/results/
+.env
+*.pyc
