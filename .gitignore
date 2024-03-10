@@ -5,3 +5,5 @@
 **/results/
 .env
 *.pyc
+Vull.xlsx
+.vscode/

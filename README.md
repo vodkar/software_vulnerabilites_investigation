@@ -8,6 +8,7 @@
 - [x] Собрать данные из Github Advisory ([процесс и результат](sv_investigation/github_advisory_process.ipynb))
 - [x] Произвести обработку данных и сформировать информативные графики (([процесс и результат](sv_investigation/process_cve_data.ipynb)))
 - [ ] (Дополнительно) Оформить результаты в виде jupyter book
+- [ ] Собрать данные из [Gitlab CVE](https://gitlab.com/gitlab-org/cves)
 
 ## Полученные результаты (с 2020 года)
 
